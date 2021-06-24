@@ -1,0 +1,42 @@
+*{box-sizing: border-box;}
+.container{
+    width: 200px;
+    height: 230px;
+    background: rgb(17, 32, 48);
+    box-shadow : 0 6px 12px rgba(0,0,0,.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box input{
+    margin-inline: 10px;
+}
+
+.box label{
+   position: relative;
+   display: block;
+   width: 170px;
+   height: 45px;
+   border: 1px solid blueviolet;
+   display: flex;
+   align-items: center;
+   border-radius: 25px;
+   transition: 3s ease;
+   color: #fff;
+
+}
+
+.box .mark
+{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 20px;
+    
+    transition: 3s ease;
+    border-radius: 50%;
+    transition: 3s ease;
+}
+
